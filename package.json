@@ -1,0 +1,25 @@
+{
+  "name": "redbox-noreact",
+  "description": "A fork of redbox-react which doesn't import React",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/insin/redbox-noreact",
+  "license": "MIT",
+  "author": "Jonny Buchanan",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "error-stack-parser": "1.2.3"
+  },
+  "devDependencies": {
+    "babel": "5.8.34"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insin/redbox-noreact.git"
+  }
+}

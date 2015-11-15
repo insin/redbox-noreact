@@ -1,0 +1,7 @@
+{
+  "stage": 2,
+  "loose": "all",
+  "optional": [
+    "optimisation.react.inlineElements"
+  ]
+}

@@ -1,13 +1,13 @@
-export default {
+let defaultStyle = {
   redbox: {
     boxSizing: 'border-box',
     fontFamily: 'sans-serif',
     position: 'fixed',
     padding: 10,
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
+    top: '0px',
+    left: '0px',
+    bottom: '0px',
+    right: '0px',
     width: '100%',
     background: 'rgb(204, 0, 0)',
     color: 'white',
@@ -35,3 +35,5 @@ export default {
     color: 'rgba(255, 255, 255, 0.7)'
   }
 }
+
+export default defaultStyle

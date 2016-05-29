@@ -5,18 +5,21 @@
   "main": "lib/index.js",
   "homepage": "https://github.com/insin/redbox-noreact",
   "license": "MIT",
-  "author": "Jonny Buchanan",
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "scripts": {
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
-    "error-stack-parser": "1.2.3"
+    "error-stack-parser": "1.3.6"
   },
   "devDependencies": {
-    "babel": "5.8.34"
+    "babel": "5.8.38",
+    "eslint-config-jonnybuchanan": "3.0.2"
   },
   "repository": {
     "type": "git",
